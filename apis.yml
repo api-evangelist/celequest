@@ -1,21 +1,60 @@
 aid: celequest
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/celequest.png
 name: Celequest
-description: Celequest is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Celequest was a business intelligence software company that built an appliance-based platform for
+  real-time operational BI — streaming dashboards and continuous analytics over live transactional data
+  rather than batch data-warehouse reporting. The company was acquired by Cognos in 2007, and its
+  technology was folded into the Cognos Now! operational BI appliance; Cognos itself was acquired by IBM
+  in 2008. Celequest no longer operates as an independent company and publishes no developer surface. As
+  of the 2026-07-20 enrichment probe, celequest.com and www.celequest.com resolve to IBM redirect
+  infrastructure (redirect.www.ibm.com) and issue a blanket HTTP 301 to the IBM Cognos Now! product page
+  for every path, including /.well-known/* and /llms.txt. There is no portal, no documentation, no API,
+  and no artifacts to harvest. This record is retained as a historical/acquired-company entry in the API
+  Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/celequest/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - lightspeed-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: historical
+x-tier-reason: acquired-defunct
+x-status: acquired
+x-acquired-by: cognos
+x-acquired-into: IBM Cognos Now!
+x-domain-status: redirects-to-ibm
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Business Intelligence
+- Analytics
+- Operational Intelligence
+- Data
+- Acquired
+- Historical
 apis: []
+common:
+- type: Acquisition
+  name: Celequest domain redirect target (IBM Cognos Now!)
+  url: https://www.ibm.com/software/data/cognos/products/now/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
