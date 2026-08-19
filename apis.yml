@@ -34,7 +34,7 @@ x-status: acquired
 x-acquired-by: cognos
 x-acquired-into: IBM Cognos Now!
 x-domain-status: redirects-to-ibm
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
