@@ -58,6 +58,11 @@ tags:
 - Historical
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/ibm/
+  name: IBM
+  x-relationship: acquired
+  x-evidence: "The company was acquired by Cognos in 2007, and its technology was folded into the Cognos Now! operational BI appliance; Cognos itself was acquired by IBM in 2008."
 - type: Acquisition
   name: Celequest domain redirect target (IBM Cognos Now!)
   url: https://www.ibm.com/software/data/cognos/products/now/
